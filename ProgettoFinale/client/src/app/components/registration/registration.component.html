@@ -1,0 +1,61 @@
+<div class="wrap">
+   <div class="inline">
+
+
+<div class="contenitore">
+<div class="form" >
+  <form class="well form-horizontal" >
+    <div class="form-group">
+       <label class="col-md-4 control-label">Nome :</label>
+       <div class="col-md-8 inputGroupContainer">
+          <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span><input id="nome" name="nome" [(ngModel)]="utente.nome" placeholder="Inserire nome " class="form-control" required="true" value="" type="text"></div>
+       </div>
+    </div>
+
+    <div class="form-group">
+       <label class="col-md-4 control-label">Cognome :</label>
+       <div class="col-md-8 inputGroupContainer">
+          <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span><input id="cognome" name="Cognome" [(ngModel)]="utente.cognome" placeholder="inserire cognome" class="form-control" required="true" value="" type="text"></div>
+       </div>
+    </div>
+    <div class="form-group">
+      <label class="col-md-4 control-label">email</label>
+      <div class="col-md-8 inputGroupContainer">
+         <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span><input id="email" name="email" [(ngModel)]="utente.email" placeholder="inserire email" class="form-control" required="true" value="" type="email"></div>
+      </div>
+   </div>
+   <div class="form-group">
+    <label class="col-md-4 control-label">Indirizzo</label>
+    <div class="col-md-8 inputGroupContainer">
+       <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span><input id="indirizzo" name="indirizzo" [(ngModel)]="utente.indirizzo" placeholder="inserire indirizzo" class="form-control" required="true" value="" type="text"></div>
+    </div>
+ </div>
+   <div class="form-group">
+    <label class="col-md-4 control-label">username:</label>
+    <div class="col-md-8 inputGroupContainer">
+       <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-knight"></i></span><input id="username" name="username" [(ngModel)]="utente.username" placeholder="inserire username" class="form-control" required="true" value="" type="text"></div>
+    </div>
+ </div>
+ <div class="form-group">
+  <label class="col-md-4 control-label">Password :</label>
+  <div class="col-md-8 inputGroupContainer">
+     <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span><input id="password" name="password" [(ngModel)]="utente.password" placeholder="inserire password" class="form-control" required="true" value="" type="text"></div>
+  </div>
+</div>
+
+    
+    
+    <div class="form-group">
+       <label class="col-md-4 control-label">Click:</label>
+        <div class="col-md-8 inputGroupContainer">
+              <button class="col-md-8 inputGroupContainer  btn-info input-lg"  type="button"  (click)="registraUtente()">Registrati</button>
+    
+           </div>
+    </div>
+</form>
+  </div>
+
+  </div>
+  </div>
+  </div>
+  

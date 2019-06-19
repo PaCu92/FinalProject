@@ -1,0 +1,17 @@
+.spazio{
+    height: 100px;
+}
+
+.contenitore{
+    margin:0 auto;
+    border: 1px solid  black;
+    position: relative;
+    width: 60%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+
+
+

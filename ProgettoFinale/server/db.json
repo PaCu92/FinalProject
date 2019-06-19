@@ -1,0 +1,58 @@
+{
+  "utente": [
+    {
+      "id": 1,
+      "nome": "Pietro",
+      "cognome": "Mani",
+      "email": "email@generica.com",
+      "indirizzo": "st 4 q5",
+      "username": "PietroMani",
+      "password": "123456789"
+    },
+    {
+      "id": 2,
+      "nome": "Andrea",
+      "cognome": "Grigoletto",
+      "email": "email@generica.com",
+      "indirizzo": "st 4 q5",
+      "username": "AndreGrigoletto",
+      "password": "123456789"
+    },
+    {
+      "id": 3,
+      "nome": "Hansel",
+      "cognome": "Boel",
+      "email": "email@generica.com",
+      "indirizzo": "st 4 q5",
+      "username": "HanselBoel",
+      "password": "123456789"
+    },
+    {
+      "id": 4,
+      "nome": "Pasquale",
+      "cognome": "Uppolillo",
+      "email": "email@generica.com",
+      "indirizzo": "st 4 q5",
+      "username": "PasqualeUppolillo",
+      "password": "123456789"
+    },
+    {
+      "id": 5,
+      "nome": "Ivan",
+      "cognome": "Vargas",
+      "email": "email@generica.com",
+      "indirizzo": "st 4 q5",
+      "username": "IvanVargas",
+      "password": "123456789"
+    },
+    {
+      "id": 6,
+      "nome": "asd",
+      "cognome": "asd",
+      "email": "asdasd@gmail.com",
+      "indirizzo": "asd",
+      "username": "asd",
+      "password": "asd"
+    }
+  ]
+}

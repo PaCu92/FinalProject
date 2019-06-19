@@ -1,0 +1,82 @@
+.wrap{
+    width: 1200px;
+    height: auto;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(https://wallpapercave.com/wp/tmx6W6N.png);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.inline{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    margin: 25px 25px 25px 25px;
+    background-color: white;
+}
+
+.card_header{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    text-align: center; 
+}
+
+.card_body{
+    width: 400px;
+    height: 300px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    text-align: center; 
+    overflow: hidden;
+}
+
+.card_footer{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    text-align: center; 
+}
+
+img{
+    vertical-align: top;
+    position: relative;
+
+}
+
+.im1{
+    position: relative;
+    display: block;
+    right: 0;
+}
+
+.im2{
+    position: relative;
+    display: block;
+    right: 0;
+}
+
+.im3{
+    position: relative;
+    display: block;
+    right: 140px;
+    bottom: 80px;
+}
+
+.im4{
+    position: relative;
+    display: block;
+    right: 15px;
+}
+

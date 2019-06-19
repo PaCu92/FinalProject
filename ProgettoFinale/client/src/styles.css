@@ -1,0 +1,4 @@
+/* Elementi Comuni */
+.wrap {width:1200px; margin: 0 auto; padding:0; position: relative; display:block;}
+.inline{width:100%; margin:0; padding:0; position: relative; display:inline-block;}
+.reset {clear:both;}
