@@ -8,8 +8,9 @@ import { Utente } from '../model/utente';
 })
 export class UtenteService {
   getUtente() {
-    throw new Error("Method not implemented.");
+    return  this.http.get<Utente[]>(this.utenteUrl);
   }
+  
   utenteUrl='http://localhost:3000/utente'
   constructor(private http: HttpClient) { }
 

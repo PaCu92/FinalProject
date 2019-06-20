@@ -10,18 +10,23 @@
         <li class="active"><a routerLink="/home" >Home</a></li>
         
       </ul>
-      <form class="navbar-form navbar-right">
+      <form *ngIf="check==false" class="navbar-form navbar-right">
         <div class="form-group">
-          <i class="glyphicon glyphicon glyphicon-user input-lg "></i><input type="text" class="form-control " placeholder="Email Address" name="Email" >
-          <i class="glyphicon glyphicon-lock input-lg"></i><input type="password" class="form-control " placeholder="Password" name="Password">
-          <button class="btn btn-primary " type="submit" >Login</button>
+          <i class="glyphicon glyphicon glyphicon-user input-lg "></i><input type="text" [(ngModel)]="logger.username"  class="form-control " placeholder="Email Address" name="Email" >
+          <i class="glyphicon glyphicon-lock input-lg"></i><input type="password" class="form-control" [(ngModel)]="logger.password"  placeholder="Password" name="Password">
+          <button class="btn btn-primary " type="submit"  (click)="login()" >Login</button>
           <button class="btn btn-info" routerLink="/registration" type="submit" >Registrati</button>
         </div>
-  
-          
-        
-        
-      </form>
+
+</form>
+
+<div *ngIf="check==true"  class="navbar-form navbar-right true"> 
+  <h2>
+    Benvenuto {{logger.name}}
+  </h2>
+  <button class="btn btn-info" routerLink="home" (click)="logout()" type="submit" >Logout</button>
+</div>
+
     </div>
   </nav>
 </div>
