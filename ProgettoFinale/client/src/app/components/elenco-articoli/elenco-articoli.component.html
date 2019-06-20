@@ -1,9 +1,9 @@
 <div class="wrap">
   <div class="inline">
       <div class="container">
-          <div class="row pt-5 m-auto">
-            <!-- ngfor( let articolo of articolo)-->
-            <div class="col-md-6 col-lg-4 pb-3">
+          <div class="row pt-5 m-auto"
+            *ngFor= "let articolo  of mock">
+            <div *ngIf ="articolo.id==id" class="col-md-6 col-lg-4 pb-3">
             
               <!-- Copy the content below until next comment -->
               <div class="card card-custom bg-white border-white border-0">
@@ -12,19 +12,17 @@
                   <img class="img-fluid" src="https://www.accenture.com/t00010101T000000Z__w__/es-es/_acnmedia/Accenture/Conversion-Assets/DotCom/Images/Global/Dualpub_124/Accenture-Fowardmark-Gradient-Public-Service-New.png" alt="Avatar" />
                 </div>
                 <div class="card-body" style="overflow-y: auto">
-                  <!-- 
+                 
                     <h2 class="card-title">{{articolo.nome}}</h2>
                     <h3 class="card-text">{{articolo.categoria}}</h3>
                     <h3 class="card-text">{{articolo.marca}}</h3>
                     <p class="card-text">{{articolo.descrizione}}</p>
-                    <h3 class="card-title">{{articolo.prezzo}}</h3>-->
-                    <h2 class="card-title">Banane</h2>
-                    <h3 class="card-text">salute e benessere</h3>
-                    <h3 class="card-text">chiquita</h3>
+                    <h3 class="card-title">{{articolo.prezzo}}€</h3>
+                   
                 
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. nibus, tincidunt ligula eu, laoreet erat. Praesent a lobortis nisi. Curabitur arcu sapien, fringilla at erat sodales, molestie lacinia tortor.  ex.</p>
+                    
                   
-                    <h3 class="card-title">25</h3>
+                    
                   </div>
                 <div class="card-footer" style="background: inherit; border-color: inherit;">
                         <a href="#" class="btn btn-primary input-xl">Aggiungi al carrello</a>
@@ -32,36 +30,6 @@
               </div>
             </div>
 
-<!-- seconda scheda-->
-
-            <div class="col-md-6 col-lg-4 pb-3">
-            
-                <!-- Copy the content below until next comment -->
-                <div class="card card-custom bg-white border-white border-0">
-                  <div class="card-custom-img" style="background-image: url(http://res.cloudinary.com/d3/image/upload/c_scale,q_auto:good,w_1110/trianglify-v1-cs85g_cc5d2i.jpg);"></div>
-                  <div class="card-custom-avatar">
-                    <img class="img-fluid" src="https://www.accenture.com/t00010101T000000Z__w__/es-es/_acnmedia/Accenture/Conversion-Assets/DotCom/Images/Global/Dualpub_124/Accenture-Fowardmark-Gradient-Public-Service-New.png" alt="Avatar" />
-                  </div>
-                  <div class="card-body" style="overflow-y: auto">
-                    <!-- 
-                      <h2 class="card-title">{{articolo.nome}}</h2>
-                      <h3 class="card-text">{{articolo.categoria}}</h3>
-                      <h3 class="card-text">{{articolo.marca}}</h3>
-                      <p class="card-text">{{articolo.descrizione}}</p>
-                      <h3 class="card-title">{{articolo.prezzo}}</h3>-->
-                      <h2 class="card-title">Banane</h2>
-                      <h3 class="card-text">salute e benessere</h3>
-                      <h3 class="card-text">chiquita</h3>
-                    
-                      <p class="card-text"> fringilla at erat sodales, molestie lacinia tortor. Praesent maximus, eros veondimentum dui. Donec sit amet dictum ex.</p>
-                      
-                      <h3 class="card-title">25</h3>
-                    </div>
-                  <div class="card-footer" style="background: inherit; border-color: inherit;">
-                          <a href="#" class="btn btn-primary input-xl">Aggiungi al carrello</a>
-                  </div>
-                </div>
-              </div>
             
            
           </div>

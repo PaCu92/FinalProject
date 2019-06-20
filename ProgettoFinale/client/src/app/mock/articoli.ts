@@ -3,14 +3,14 @@ import { Articoli } from '../model/articoli';
 export const ARTICOLI: Articoli[] = [
   {
     "id": 1,
-    "categoria":"Salute e benessere",
+    "categoria":"Salute",
     "nomeArticolo": "Crema viso",
     "prezzo" : 80,
     "marca" : "Wella",
     "descrizione" : "crema naturale......",
 } ,{
     "id": 2,
-    "categoria":"Salute e benessere",
+    "categoria":"Salute",
     "nomeArticolo": "Crema corpo",
     "prezzo" : 40,
     "marca" : "Wella",
