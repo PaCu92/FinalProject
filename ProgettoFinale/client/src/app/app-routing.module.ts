@@ -2,13 +2,14 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { RegistrationComponent } from './components/registration/registration.component';
 import { HomeComponent } from './components/home/home.component';
+import { ElencoArticoliComponent } from './components/elenco-articoli/elenco-articoli.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/home', pathMatch: 'full' },
   {path:'registration', component:RegistrationComponent},
   {path: 'home', component:HomeComponent},
-  /*{path: 'posts', component: PostloopComponent },
-  {path: 'posts/:id', component: PostComponent },
+  {path: 'elenco-articoli', component: ElencoArticoliComponent},
+  /*{path: 'posts/:id', component: PostComponent },
   {path: 'comments', component: CommentloopComponent},*/
   {path: '**', redirectTo: '/home', pathMatch: 'full' }
   
