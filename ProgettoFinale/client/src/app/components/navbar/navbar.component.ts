@@ -33,5 +33,7 @@ this.check=false}
     alert("username o password non coincidono")
     }
 
-    logout(){this.check=false;}
+    logout(){this.check=false;
+    this.logger.username="";
+  this.logger.password="";}
 }
