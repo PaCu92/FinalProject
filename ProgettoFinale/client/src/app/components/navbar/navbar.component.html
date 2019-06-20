@@ -12,7 +12,7 @@
       </ul>
       <form *ngIf="check==false" class="navbar-form navbar-right">
         <div class="form-group">
-          <i class="glyphicon glyphicon glyphicon-user input-lg "></i><input type="text" [(ngModel)]="logger.username"  class="form-control " placeholder="Email Address" name="Email" >
+          <i class="glyphicon glyphicon glyphicon-user input-lg "></i><input type="text" [(ngModel)]="logger.username"  class="form-control " placeholder="Username" name="Username" >
           <i class="glyphicon glyphicon-lock input-lg"></i><input type="password" class="form-control" [(ngModel)]="logger.password"  placeholder="Password" name="Password">
           <button class="btn btn-primary " type="submit"  (click)="login()" >Login</button>
           <button class="btn btn-info" routerLink="/registration" type="submit" >Registrati</button>
