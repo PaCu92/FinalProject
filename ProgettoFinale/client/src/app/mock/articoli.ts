@@ -3,7 +3,7 @@ import { Articoli } from '../model/articoli';
 export const ARTICOLI: Articoli[] = [
   {
     "id": 1,
-    "categoria":"Salute e benessere",
+    "categoria":"Saluteee e benessere",
     "nomeArticolo": "Crema viso",
     "prezzo" : 80,
     "marca" : "Wella",
