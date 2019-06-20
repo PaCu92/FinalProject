@@ -17,6 +17,7 @@ import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './components/home/home.component';
 import { RegistrationComponent } from './components/registration/registration.component';
+import { CarelloComponent } from './components/carello/carello.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { RegistrationComponent } from './components/registration/registration.co
     HomeComponent,
     ElencoArticoliComponent,
     RegistrationComponent,
+    CarelloComponent,
  
   ],
   imports: [   FormsModule,

@@ -3,14 +3,19 @@ import { Articoli } from '../model/articoli';
 export const ARTICOLI: Articoli[] = [
   {
     "id": 1,
-    "categoria":"Salute",
+    "categoria":"Salute e benessere",
+    "idCategoria": 1,
+
     "nomeArticolo": "Crema viso",
     "prezzo" : 80,
     "marca" : "Wella",
     "descrizione" : "crema naturale......",
 } ,{
     "id": 2,
-    "categoria":"Salute",
+
+    "categoria":"Salute e benessere",
+    "idCategoria": 1,
+
     "nomeArticolo": "Crema corpo",
     "prezzo" : 40,
     "marca" : "Wella",
@@ -19,6 +24,7 @@ export const ARTICOLI: Articoli[] = [
 },{
     "id": 3,
     "categoria":"Salute e benessere",
+    "idCategoria": 1,
     "nomeArticolo": "Crema mani",
     "prezzo" : 10,
     "marca" : "Wella",
@@ -27,6 +33,7 @@ export const ARTICOLI: Articoli[] = [
 },{
     "id": 4,
     "categoria":"Salute e benessere",
+    "idCategoria": 1,
     "nomeArticolo": "Crema ",
     "prezzo" : 5,
     "marca" : "Wella",
@@ -35,6 +42,7 @@ export const ARTICOLI: Articoli[] = [
 },{
     "id": 5,
     "categoria":"Salute e benessere",
+    "idCategoria": 1,
     "nomeArticolo": "Shampoo ",
     "prezzo" : 15,
     "marca" : "Wella",
@@ -43,6 +51,7 @@ export const ARTICOLI: Articoli[] = [
 },{
     "id": 6,
     "categoria":"Salute e benessere",
+    "idCategoria": 1,
     "nomeArticolo": "shampoo ",
     "prezzo" : 5,
     "marca" : "Wella",
@@ -51,6 +60,7 @@ export const ARTICOLI: Articoli[] = [
 },{
       "id": 7,
       "categoria":"Abbigliamento",
+      "idCategoria": 2,
       "nomeArticolo": "Crema viso",
       "prezzo" : 80,
       "marca" : "Wella",
@@ -58,6 +68,7 @@ export const ARTICOLI: Articoli[] = [
   } ,{
       "id": 8,
       "categoria":"Abbigliamento",
+      "idCategoria": 2,
       "nomeArticolo": "Maglia",
       "prezzo" : 30,
       "marca" : "Wella",
@@ -66,6 +77,7 @@ export const ARTICOLI: Articoli[] = [
   },{
       "id": 9,
       "categoria":"Abbigliamento",
+      "idCategoria": 2,
       "nomeArticolo": "Maglia",
       "prezzo" : 30,
       "marca" : "Wella",
@@ -74,6 +86,7 @@ export const ARTICOLI: Articoli[] = [
   },{
       "id": 10,
       "categoria":"Abbigliamento",
+      "idCategoria": 2,
       "nomeArticolo": "Maglia",
       "prezzo" : 30,
       "marca" : "Wella",
@@ -82,6 +95,7 @@ export const ARTICOLI: Articoli[] = [
   },{
       "id": 11,
       "categoria":"Abbigliamento",
+      "idCategoria": 2,
       "nomeArticolo": "Maglia",
       "prezzo" : 30,
       "marca" : "Wella",
@@ -90,6 +104,7 @@ export const ARTICOLI: Articoli[] = [
   },{
       "id": 12,
       "categoria":"Abbigliamento",
+      "idCategoria": 2,
       "nomeArticolo": "Maglia",
       "prezzo" : 30,
       "marca" : "Wella",
@@ -98,6 +113,7 @@ export const ARTICOLI: Articoli[] = [
   },{
     "id": 13,
     "categoria":"Musica e film",
+    "idCategoria": 3,
     "nomeArticolo": "Pinco Pippo",
     "prezzo" : 10,
     "marca" : "sony",
@@ -106,6 +122,7 @@ export const ARTICOLI: Articoli[] = [
 },{
     "id": 14,
     "categoria":"Musica e film",
+    "idCategoria": 3,
     "nomeArticolo": "Pinco Pippo",
     "prezzo" : 10,
     "marca" : "sony",
@@ -114,6 +131,7 @@ export const ARTICOLI: Articoli[] = [
 },{
     "id": 15,
     "categoria":"Musica e film",
+    "idCategoria": 3,
     "nomeArticolo": "Pinco Pippo",
     "prezzo" : 10,
     "marca" : "sony",
@@ -122,6 +140,7 @@ export const ARTICOLI: Articoli[] = [
 },{
     "id": 16,
     "categoria":"Musica e film",
+    "idCategoria": 3,
     "nomeArticolo": "Pinco Pippo",
     "prezzo" : 10,
     "marca" : "sony",
@@ -130,6 +149,7 @@ export const ARTICOLI: Articoli[] = [
 },{
     "id": 17,
     "categoria":"Musica e film",
+    "idCategoria": 3,
     "nomeArticolo": "Pinco Pippo",
     "prezzo" : 10,
     "marca" : "sony",
@@ -138,6 +158,7 @@ export const ARTICOLI: Articoli[] = [
 },{
     "id": 18,
     "categoria":"Musica e film",
+    "idCategoria": 3,
     "nomeArticolo": "Pinco Pippo",
     "prezzo" : 10,
     "marca" : "sony",
@@ -146,6 +167,7 @@ export const ARTICOLI: Articoli[] = [
 },{
     "id": 19,
     "categoria":"Musica e film",
+    "idCategoria": 3,
     "nomeArticolo": "Pinco Pippo",
     "prezzo" : 10,
     "marca" : "sony",
@@ -154,6 +176,7 @@ export const ARTICOLI: Articoli[] = [
 },{
     "id": 20,
     "categoria":"Musica e film",
+    "idCategoria": 3,
     "nomeArticolo": "Pinco Pippo",
     "prezzo" : 10,
     "marca" : "sony",
@@ -162,6 +185,7 @@ export const ARTICOLI: Articoli[] = [
 },{
     "id": 21,
     "categoria":"Musica e film",
+    "idCategoria": 3,
     "nomeArticolo": "Rambo",
     "prezzo" : 20,
     "marca" : "sony",
@@ -170,6 +194,7 @@ export const ARTICOLI: Articoli[] = [
 },{
     "id": 22,
     "categoria":"Musica e film",
+    "idCategoria": 3,
     "nomeArticolo": "Rambo",
     "prezzo" : 20,
     "marca" : "sony",
@@ -178,6 +203,7 @@ export const ARTICOLI: Articoli[] = [
 },{
     "id": 23,
     "categoria":"Musica e film",
+    "idCategoria": 3,
     "nomeArticolo": "Rambo",
     "prezzo" : 20,
     "marca" : "sony",
@@ -186,6 +212,7 @@ export const ARTICOLI: Articoli[] = [
 },{
     "id": 24,
     "categoria":"Musica e film",
+    "idCategoria": 3,
     "nomeArticolo": "Rambo 2",
     "prezzo" : 20,
     "marca" : "sony",
@@ -194,6 +221,7 @@ export const ARTICOLI: Articoli[] = [
 },{
     "id": 25,
     "categoria":"Musica e film",
+    "idCategoria": 3,
     "nomeArticolo": "Rambo 3",
     "prezzo" : 20,
     "marca" : "sony",
@@ -202,6 +230,7 @@ export const ARTICOLI: Articoli[] = [
 },{
     "id": 26,
     "categoria":"Musica e film",
+    "idCategoria": 3,
     "nomeArticolo": "Rambo 4",
     "prezzo" : 20,
     "marca" : "sony",
@@ -210,6 +239,7 @@ export const ARTICOLI: Articoli[] = [
 },{
     "id": 27,
     "categoria":"Musica e film",
+    "idCategoria": 3,
     "nomeArticolo": "Rambo 5",
     "prezzo" : 20,
     "marca" : "sony",
@@ -218,6 +248,7 @@ export const ARTICOLI: Articoli[] = [
 },{
     "id": 28,
     "categoria":"Telefonia",
+    "idCategoria": 4,
     "nomeArticolo": "Iphone 8 plus",
     "prezzo" : 829,
     "marca" : "sony",
@@ -225,6 +256,7 @@ export const ARTICOLI: Articoli[] = [
 },{
     "id": 29,
     "categoria":"Telefonia",
+    "idCategoria": 4,
     "nomeArticolo": "Iphone 8 plus",
     "prezzo" : 529,
     "marca" : "sony",
@@ -232,6 +264,7 @@ export const ARTICOLI: Articoli[] = [
 },{
     "id": 30,
     "categoria":"Telefonia",
+    "idCategoria": 4,
     "nomeArticolo": "Iphone XS MAX",
     "prezzo" : 1199,
     "marca" : "sony",
@@ -239,6 +272,7 @@ export const ARTICOLI: Articoli[] = [
 },{
     "id": 31,
     "categoria":"Telefonia",
+    "idCategoria": 4,
     "nomeArticolo": "Iphone 8 plus",
     "prezzo" : 999,
     "marca" : "sony",
