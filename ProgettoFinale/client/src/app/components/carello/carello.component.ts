@@ -6,10 +6,10 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./carello.component.css']
 })
 export class CarelloComponent implements OnInit {
-@Input()cart;
+@Input() cart;
   constructor() { console.log(this.cart);}
 
-  ngOnInit() {
+  ngOnInit() { console.log(this.cart)
   }
 
 }

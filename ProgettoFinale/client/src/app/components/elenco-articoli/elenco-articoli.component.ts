@@ -11,7 +11,8 @@ import { Mock } from 'protractor/built/driverProviders';
 })
 export class ElencoArticoliComponent implements OnInit {
 articoli: Articoli[];
-@Output() carrello:Articoli[];
+@Output() Art;
+carrello:Articoli[];
 mock:  Articoli[];
 
   id=this.route.snapshot.params['id'];

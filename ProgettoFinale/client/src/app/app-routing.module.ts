@@ -3,12 +3,15 @@ import { Routes, RouterModule } from '@angular/router';
 import { RegistrationComponent } from './components/registration/registration.component';
 import { HomeComponent } from './components/home/home.component';
 import { ElencoArticoliComponent } from './components/elenco-articoli/elenco-articoli.component';
+import { CarelloComponent } from './components/carello/carello.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/home', pathMatch: 'full' },
   {path:'registration', component:RegistrationComponent},
   {path: 'home', component:HomeComponent},
   {path: 'elenco-articoli/:id', component: ElencoArticoliComponent},
+  {path: 'carello', component:CarelloComponent},
+  
   {path: '**', redirectTo: '/home', pathMatch: 'full' }
   ];
 
