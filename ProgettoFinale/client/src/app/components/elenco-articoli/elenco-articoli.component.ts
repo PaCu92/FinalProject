@@ -11,16 +11,9 @@ import { CarelloService } from 'src/app/services/carello.service';
   styleUrls: ['./elenco-articoli.component.css']
 })
 export class ElencoArticoliComponent implements OnInit {
-<<<<<<< HEAD
   articoli: Articoli[];
   @Output() carrello: Articoli[];
   mock: Articoli[];
-=======
-articoli: Articoli[];
-@Output() Art;
-carrello:Articoli[];
-mock:  Articoli[];
->>>>>>> d098fd5849006a15c62afeaa76281d9ea2890be1
 
   id = this.route.snapshot.params['id'];
   constructor(private utenteService: UtenteService,
