@@ -5,5 +5,6 @@ export class Articoli {
     nomeArticolo: string;
     prezzo:number;
     marca:string;
-    descrizione:string
+    descrizione:string;
+    quantita?:number;
     }

@@ -5,6 +5,7 @@ export const ARTICOLI: Articoli[] = [
     "id": 1,
     "categoria":"Salute e benessere",
     "idCategoria": 1,
+    "quantita":1,
 
     "nomeArticolo": "Crema viso",
     "prezzo" : 80,
@@ -12,7 +13,7 @@ export const ARTICOLI: Articoli[] = [
     "descrizione" : "crema naturale......",
 } ,{
     "id": 2,
-
+    "quantita":1,
     "categoria":"Salute e benessere",
     "idCategoria": 1,
 
@@ -29,7 +30,7 @@ export const ARTICOLI: Articoli[] = [
     "prezzo" : 10,
     "marca" : "Wella",
     "descrizione" : "crema  caucasica......",
-
+    "quantita":1,
 },{
     "id": 4,
     "categoria":"Salute e benessere",
@@ -38,7 +39,7 @@ export const ARTICOLI: Articoli[] = [
     "prezzo" : 5,
     "marca" : "Wella",
     "descrizione" : "crema.......................",
-
+    "quantita":1,
 },{
     "id": 5,
     "categoria":"Salute e benessere",
@@ -47,7 +48,7 @@ export const ARTICOLI: Articoli[] = [
     "prezzo" : 15,
     "marca" : "Wella",
     "descrizione" : "shampoo naturale.....................",
-
+    "quantita":1,
 },{
     "id": 6,
     "categoria":"Salute e benessere",
@@ -56,8 +57,9 @@ export const ARTICOLI: Articoli[] = [
     "prezzo" : 5,
     "marca" : "Wella",
     "descrizione" : "shampoo.......................",
-
+    "quantita":1,
 },{
+    "quantita":1,
       "id": 7,
       "categoria":"Abbigliamento",
       "idCategoria": 2,
@@ -73,7 +75,7 @@ export const ARTICOLI: Articoli[] = [
       "prezzo" : 30,
       "marca" : "Wella",
       "descrizione" : "senza descrizione articolo.....",
-  
+      "quantita":1,
   },{
       "id": 9,
       "categoria":"Abbigliamento",
@@ -82,7 +84,7 @@ export const ARTICOLI: Articoli[] = [
       "prezzo" : 30,
       "marca" : "Wella",
       "descrizione" : "senza descrizione articolo.....",
-  
+      "quantita":1,
   },{
       "id": 10,
       "categoria":"Abbigliamento",
@@ -91,7 +93,7 @@ export const ARTICOLI: Articoli[] = [
       "prezzo" : 30,
       "marca" : "Wella",
       "descrizione" : "senza descrizione articolo.....",
-  
+      "quantita":1,
   },{
       "id": 11,
       "categoria":"Abbigliamento",
@@ -100,7 +102,7 @@ export const ARTICOLI: Articoli[] = [
       "prezzo" : 30,
       "marca" : "Wella",
       "descrizione" : "senza descrizione articolo.....",
-  
+      "quantita":1,
   },{
       "id": 12,
       "categoria":"Abbigliamento",
@@ -109,7 +111,7 @@ export const ARTICOLI: Articoli[] = [
       "prezzo" : 30,
       "marca" : "Wella",
       "descrizione" : "senza descrizione articolo.....",
-  
+      "quantita":1,
   },{
     "id": 13,
     "categoria":"Musica e film",
@@ -118,7 +120,7 @@ export const ARTICOLI: Articoli[] = [
     "prezzo" : 10,
     "marca" : "sony",
     "descrizione" : "senza descrizione articolo.....",
-
+    "quantita":1,
 },{
     "id": 14,
     "categoria":"Musica e film",
@@ -127,7 +129,7 @@ export const ARTICOLI: Articoli[] = [
     "prezzo" : 10,
     "marca" : "sony",
     "descrizione" : "senza descrizione articolo.....",
-
+    "quantita":1,
 },{
     "id": 15,
     "categoria":"Musica e film",
@@ -136,7 +138,7 @@ export const ARTICOLI: Articoli[] = [
     "prezzo" : 10,
     "marca" : "sony",
     "descrizione" : "senza descrizione articolo.....",
-
+    "quantita":1,
 },{
     "id": 16,
     "categoria":"Musica e film",
@@ -145,7 +147,7 @@ export const ARTICOLI: Articoli[] = [
     "prezzo" : 10,
     "marca" : "sony",
     "descrizione" : "senza descrizione articolo.....",
-
+    "quantita":1,
 },{
     "id": 17,
     "categoria":"Musica e film",
@@ -154,7 +156,7 @@ export const ARTICOLI: Articoli[] = [
     "prezzo" : 10,
     "marca" : "sony",
     "descrizione" : "senza descrizione articolo.....",
-
+    "quantita":1,
 },{
     "id": 18,
     "categoria":"Musica e film",
@@ -163,7 +165,7 @@ export const ARTICOLI: Articoli[] = [
     "prezzo" : 10,
     "marca" : "sony",
     "descrizione" : "senza descrizione articolo.....",
-
+    "quantita":1,
 },{
     "id": 19,
     "categoria":"Musica e film",
@@ -172,7 +174,7 @@ export const ARTICOLI: Articoli[] = [
     "prezzo" : 10,
     "marca" : "sony",
     "descrizione" : "senza descrizione articolo.....",
-
+    "quantita":1,
 },{
     "id": 20,
     "categoria":"Musica e film",
@@ -181,7 +183,7 @@ export const ARTICOLI: Articoli[] = [
     "prezzo" : 10,
     "marca" : "sony",
     "descrizione" : "senza descrizione articolo.....",
-
+    "quantita":1,
 },{
     "id": 21,
     "categoria":"Musica e film",
@@ -190,7 +192,7 @@ export const ARTICOLI: Articoli[] = [
     "prezzo" : 20,
     "marca" : "sony",
     "descrizione" : "senza descrizione articolo.....",
-
+    "quantita":1,
 },{
     "id": 22,
     "categoria":"Musica e film",
@@ -199,7 +201,7 @@ export const ARTICOLI: Articoli[] = [
     "prezzo" : 20,
     "marca" : "sony",
     "descrizione" : "senza descrizione articolo.....",
-
+    "quantita":1,
 },{
     "id": 23,
     "categoria":"Musica e film",
@@ -208,7 +210,7 @@ export const ARTICOLI: Articoli[] = [
     "prezzo" : 20,
     "marca" : "sony",
     "descrizione" : "senza descrizione articolo.....",
-
+    "quantita":1,
 },{
     "id": 24,
     "categoria":"Musica e film",
@@ -217,7 +219,7 @@ export const ARTICOLI: Articoli[] = [
     "prezzo" : 20,
     "marca" : "sony",
     "descrizione" : "senza descrizione articolo.....",
-
+    "quantita":1,
 },{
     "id": 25,
     "categoria":"Musica e film",
@@ -226,7 +228,7 @@ export const ARTICOLI: Articoli[] = [
     "prezzo" : 20,
     "marca" : "sony",
     "descrizione" : "senza descrizione articolo.....",
-
+    "quantita":1,
 },{
     "id": 26,
     "categoria":"Musica e film",
@@ -235,7 +237,7 @@ export const ARTICOLI: Articoli[] = [
     "prezzo" : 20,
     "marca" : "sony",
     "descrizione" : "senza descrizione articolo.....",
-
+    "quantita":1,
 },{
     "id": 27,
     "categoria":"Musica e film",
@@ -244,8 +246,9 @@ export const ARTICOLI: Articoli[] = [
     "prezzo" : 20,
     "marca" : "sony",
     "descrizione" : "senza descrizione articolo.....",
-
+    "quantita":1,
 },{
+    "quantita":1,
     "id": 28,
     "categoria":"Telefonia",
     "idCategoria": 4,
@@ -253,7 +256,7 @@ export const ARTICOLI: Articoli[] = [
     "prezzo" : 829,
     "marca" : "sony",
     "descrizione" : "Iphone 8 plus 64Gb grigio siderale"
-},{
+},{ "quantita":1,
     "id": 29,
     "categoria":"Telefonia",
     "idCategoria": 4,
@@ -262,6 +265,7 @@ export const ARTICOLI: Articoli[] = [
     "marca" : "sony",
     "descrizione" : "Iphone 8 plus 64Gb grigio siderale ricondizionato" 
 },{
+    "quantita":1,
     "id": 30,
     "categoria":"Telefonia",
     "idCategoria": 4,
@@ -269,7 +273,7 @@ export const ARTICOLI: Articoli[] = [
     "prezzo" : 1199,
     "marca" : "sony",
     "descrizione" : "Iphone XS MAX 256Gb grigio siderale"
-},{
+},{ "quantita":1,
     "id": 31,
     "categoria":"Telefonia",
     "idCategoria": 4,
