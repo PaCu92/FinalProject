@@ -27,3 +27,7 @@ p.card-text {height: 85px;
     left: 1.25rem;
     width: 100px;
     height: 100px; }
+
+
+    .contenit{   min-height: 250px;
+      box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);}

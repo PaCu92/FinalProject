@@ -2,8 +2,9 @@
   <div class="inline">
       <div class="container">
           <div 
-            *ngFor= "let articolo  of mock">
-            <div *ngIf ="articolo.idCategoria==id" class="col-md-6 col-lg-4 pb-3" style="margin: 0 0 30px 0">
+            *ngFor= "let articolo  of mock"> 
+
+            <div *ngIf ="articolo.idCategoria==id" class="col-md-6 col-lg-4 pb-3" style="margin: 0 0 20px 0">
             
               <!-- Copy the content below until next comment -->
               <div class="card card-custom bg-white border-white border-0">
@@ -19,14 +20,14 @@
                     <p class="card-text">{{articolo.descrizione}}</p>
                     <h3 class="card-title">{{articolo.prezzo}}€</h3>
                    
-                
-                    
-                  
+               
                     
                   </div>
-                <div class="card-footer" style="background: inherit; border-color: inherit;">
+                 <div class="card-footer" style="background: inherit; border-color: inherit;">
                         <a href="#" class="btn btn-primary input-xl">Aggiungi al carrello</a>
+
                 </div>
+
               </div>
             </div>
 
