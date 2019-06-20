@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-carello',
@@ -6,8 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./carello.component.css']
 })
 export class CarelloComponent implements OnInit {
-
-  constructor() { }
+@Input()cart;
+  constructor() { console.log(this.cart);}
 
   ngOnInit() {
   }
