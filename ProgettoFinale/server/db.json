@@ -30,10 +30,10 @@
     {
       "id": 4,
       "nome": "Pasquale",
-      "cognome": "Uppolillo",
+      "cognome": "Cupolillo",
       "email": "email@generica.com",
       "indirizzo": "st 4 q5",
-      "username": "PasqualeUppolillo",
+      "username": "PasqualeCupolillo",
       "password": "123456789"
     },
     {
@@ -53,6 +53,15 @@
       "indirizzo": "asd",
       "username": "asd",
       "password": "asd"
+    },
+    {
+      "id": 7,
+      "nome": "samu",
+      "cognome": "vio",
+      "email": "samu@goog.it",
+      "indirizzo": "bomba ",
+      "username": "samu92",
+      "password": "elcorvo"
     }
   ]
 }
