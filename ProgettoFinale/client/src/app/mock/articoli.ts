@@ -226,23 +226,23 @@ export const ARTICOLI: Articoli[] = [
     "id": 29,
     "categoria":"Telefonia",
     "nomeArticolo": "Iphone 8 plus",
-    "prezzo" : 829,
+    "prezzo" : 529,
     "marca" : "sony",
-    "descrizione" : "Iphone 8 plus 64Gb grigio siderale" 
+    "descrizione" : "Iphone 8 plus 64Gb grigio siderale ricondizionato" 
 },{
     "id": 30,
     "categoria":"Telefonia",
-    "nomeArticolo": "Iphone 8 plus",
-    "prezzo" : 829,
+    "nomeArticolo": "Iphone XS MAX",
+    "prezzo" : 1199,
     "marca" : "sony",
-    "descrizione" : "Iphone 8 plus 64Gb grigio siderale"
+    "descrizione" : "Iphone XS MAX 256Gb grigio siderale"
 },{
     "id": 31,
     "categoria":"Telefonia",
     "nomeArticolo": "Iphone 8 plus",
-    "prezzo" : 829,
+    "prezzo" : 999,
     "marca" : "sony",
-    "descrizione" : "Iphone 8 plus 64Gb grigio siderale"
+    "descrizione" : "Iphone 8 plus 256Gb grigio siderale"
 }]
 
 
