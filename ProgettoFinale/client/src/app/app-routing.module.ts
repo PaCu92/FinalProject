@@ -9,11 +9,8 @@ const routes: Routes = [
   {path:'registration', component:RegistrationComponent},
   {path: 'home', component:HomeComponent},
   {path: 'elenco-articoli', component: ElencoArticoliComponent},
-  /*{path: 'posts/:id', component: PostComponent },
-  {path: 'comments', component: CommentloopComponent},*/
   {path: '**', redirectTo: '/home', pathMatch: 'full' }
-  
-];
+  ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
