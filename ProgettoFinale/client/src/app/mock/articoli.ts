@@ -5,14 +5,17 @@ export const ARTICOLI: Articoli[] = [
     "id": 1,
     "categoria":"Salute e benessere",
     "idCategoria": 1,
+
     "nomeArticolo": "Crema viso",
     "prezzo" : 80,
     "marca" : "Wella",
     "descrizione" : "crema naturale......",
 } ,{
     "id": 2,
+
     "categoria":"Salute e benessere",
     "idCategoria": 1,
+
     "nomeArticolo": "Crema corpo",
     "prezzo" : 40,
     "marca" : "Wella",

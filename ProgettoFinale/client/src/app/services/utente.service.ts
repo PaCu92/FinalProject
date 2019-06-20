@@ -3,6 +3,8 @@ import { HttpHeaders, HttpClient } from '@angular/common/http';
 import { Observable, throwError } from 'rxjs';
 import { retry, catchError } from 'rxjs/operators';
 import { Utente } from '../model/utente';
+import { ARTICOLI } from '../mock/articoli';
+import { Articoli } from '../model/articoli';
 @Injectable({
   providedIn: 'root'
 })
@@ -10,7 +12,9 @@ export class UtenteService {
   getUtente() {
     return  this.http.get<Utente[]>(this.utenteUrl);
   }
-  
+  getMock(): Articoli[] {
+    return ARTICOLI;
+  }
   utenteUrl='http://localhost:3000/utente'
   constructor(private http: HttpClient) { }
 
