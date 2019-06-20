@@ -53,6 +53,15 @@
       "indirizzo": "asd",
       "username": "asd",
       "password": "asd"
+    },
+    {
+      "id": 7,
+      "nome": "samu",
+      "cognome": "vio",
+      "email": "samu@goog.it",
+      "indirizzo": "bomba ",
+      "username": "samu92",
+      "password": "elcorvo"
     }
   ]
 }
