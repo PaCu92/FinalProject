@@ -4,9 +4,11 @@ import { url } from 'inspector';
 export const ARTICOLI: Articoli[] = [
   {
     "id": 1,
+    "img":"",
     "categoria":"Salute e benessere",
     "idCategoria": 1,
-    "img":"https://images-na.ssl-images-amazon.com/images/I/71bBEnS5XFL._SX466_.jpg",
+    "quantita":1,
+
     "nomeArticolo": "Crema viso",
     "prezzo" : 80,
     "marca" : "Wella",
@@ -14,6 +16,7 @@ export const ARTICOLI: Articoli[] = [
 } ,{
     "id": 2,
     "img":"",
+    "quantita":1,
     "categoria":"Salute e benessere",
     "idCategoria": 1,
 
@@ -31,7 +34,7 @@ export const ARTICOLI: Articoli[] = [
     "prezzo" : 10,
     "marca" : "Wella",
     "descrizione" : "crema  caucasica......",
-
+    "quantita":1,
 },{
     "id": 4,
     "img":"",
@@ -41,7 +44,7 @@ export const ARTICOLI: Articoli[] = [
     "prezzo" : 5,
     "marca" : "Wella",
     "descrizione" : "crema.......................",
-
+    "quantita":1,
 },{
     "id": 5,
     "img":"",
@@ -51,7 +54,7 @@ export const ARTICOLI: Articoli[] = [
     "prezzo" : 15,
     "marca" : "Wella",
     "descrizione" : "shampoo naturale.....................",
-
+    "quantita":1,
 },{
     "id": 6,
     "img":"",
@@ -61,8 +64,9 @@ export const ARTICOLI: Articoli[] = [
     "prezzo" : 5,
     "marca" : "Wella",
     "descrizione" : "shampoo.......................",
-
+    "quantita":1,
 },{
+    "quantita":1,
       "id": 7,
       "img":"",
       "categoria":"Abbigliamento",
@@ -80,7 +84,7 @@ export const ARTICOLI: Articoli[] = [
       "prezzo" : 30,
       "marca" : "Wella",
       "descrizione" : "senza descrizione articolo.....",
-  
+      "quantita":1,
   },{
       "id": 9,
       "img":"",
@@ -90,7 +94,7 @@ export const ARTICOLI: Articoli[] = [
       "prezzo" : 30,
       "marca" : "Wella",
       "descrizione" : "senza descrizione articolo.....",
-  
+      "quantita":1,
   },{
       "id": 10,
       "img":"",
@@ -100,7 +104,7 @@ export const ARTICOLI: Articoli[] = [
       "prezzo" : 30,
       "marca" : "Wella",
       "descrizione" : "senza descrizione articolo.....",
-  
+      "quantita":1,
   },{
       "id": 11,
       "img":"",
@@ -110,7 +114,7 @@ export const ARTICOLI: Articoli[] = [
       "prezzo" : 30,
       "marca" : "Wella",
       "descrizione" : "senza descrizione articolo.....",
-  
+      "quantita":1,
   },{
       "id": 12,
       "img":"",
@@ -120,7 +124,7 @@ export const ARTICOLI: Articoli[] = [
       "prezzo" : 30,
       "marca" : "Wella",
       "descrizione" : "senza descrizione articolo.....",
-  
+      "quantita":1,
   },{
     "id": 13,
     "img":"",
@@ -130,7 +134,7 @@ export const ARTICOLI: Articoli[] = [
     "prezzo" : 10,
     "marca" : "sony",
     "descrizione" : "senza descrizione articolo.....",
-
+    "quantita":1,
 },{
     "id": 14,
     "img":"",
@@ -140,7 +144,7 @@ export const ARTICOLI: Articoli[] = [
     "prezzo" : 10,
     "marca" : "sony",
     "descrizione" : "senza descrizione articolo.....",
-
+    "quantita":1,
 },{
     "id": 15,
     "img":"",
@@ -150,7 +154,7 @@ export const ARTICOLI: Articoli[] = [
     "prezzo" : 10,
     "marca" : "sony",
     "descrizione" : "senza descrizione articolo.....",
-
+    "quantita":1,
 },{
     "id": 16,
     "img":"",
@@ -160,7 +164,7 @@ export const ARTICOLI: Articoli[] = [
     "prezzo" : 10,
     "marca" : "sony",
     "descrizione" : "senza descrizione articolo.....",
-
+    "quantita":1,
 },{
     "id": 17,
     "img":"",
@@ -170,7 +174,7 @@ export const ARTICOLI: Articoli[] = [
     "prezzo" : 10,
     "marca" : "sony",
     "descrizione" : "senza descrizione articolo.....",
-
+    "quantita":1,
 },{
     "id": 18,
     "img":"",
@@ -180,7 +184,7 @@ export const ARTICOLI: Articoli[] = [
     "prezzo" : 10,
     "marca" : "sony",
     "descrizione" : "senza descrizione articolo.....",
-
+    "quantita":1,
 },{
     "id": 19,
     "img":"",
@@ -190,7 +194,7 @@ export const ARTICOLI: Articoli[] = [
     "prezzo" : 10,
     "marca" : "sony",
     "descrizione" : "senza descrizione articolo.....",
-
+    "quantita":1,
 },{
     "id": 20,
     "img":"",
@@ -200,7 +204,7 @@ export const ARTICOLI: Articoli[] = [
     "prezzo" : 10,
     "marca" : "sony",
     "descrizione" : "senza descrizione articolo.....",
-
+    "quantita":1,
 },{
     "id": 21,
     "img":"",
@@ -210,7 +214,7 @@ export const ARTICOLI: Articoli[] = [
     "prezzo" : 20,
     "marca" : "sony",
     "descrizione" : "senza descrizione articolo.....",
-
+    "quantita":1,
 },{
     "id": 22,
     "img":"",
@@ -220,7 +224,7 @@ export const ARTICOLI: Articoli[] = [
     "prezzo" : 20,
     "marca" : "sony",
     "descrizione" : "senza descrizione articolo.....",
-
+    "quantita":1,
 },{
     "id": 23,
     "img":"",
@@ -230,7 +234,7 @@ export const ARTICOLI: Articoli[] = [
     "prezzo" : 20,
     "marca" : "sony",
     "descrizione" : "senza descrizione articolo.....",
-
+    "quantita":1,
 },{
     "id": 24,
     "img":"",
@@ -240,7 +244,7 @@ export const ARTICOLI: Articoli[] = [
     "prezzo" : 20,
     "marca" : "sony",
     "descrizione" : "senza descrizione articolo.....",
-
+    "quantita":1,
 },{
     "id": 25,
     "img":"",
@@ -250,7 +254,7 @@ export const ARTICOLI: Articoli[] = [
     "prezzo" : 20,
     "marca" : "sony",
     "descrizione" : "senza descrizione articolo.....",
-
+    "quantita":1,
 },{
     "id": 26,
     "img":"",
@@ -260,7 +264,7 @@ export const ARTICOLI: Articoli[] = [
     "prezzo" : 20,
     "marca" : "sony",
     "descrizione" : "senza descrizione articolo.....",
-
+    "quantita":1,
 },{
     "id": 27,
     "img":"",
@@ -270,8 +274,9 @@ export const ARTICOLI: Articoli[] = [
     "prezzo" : 20,
     "marca" : "sony",
     "descrizione" : "senza descrizione articolo.....",
-
+    "quantita":1,
 },{
+    "quantita":1,
     "id": 28,
     "img":"",
     "categoria":"Telefonia",
@@ -280,7 +285,7 @@ export const ARTICOLI: Articoli[] = [
     "prezzo" : 829,
     "marca" : "sony",
     "descrizione" : "Iphone 8 plus 64Gb grigio siderale"
-},{
+},{ "quantita":1,
     "id": 29,
     "img":"",
     "categoria":"Telefonia",
@@ -290,6 +295,7 @@ export const ARTICOLI: Articoli[] = [
     "marca" : "sony",
     "descrizione" : "Iphone 8 plus 64Gb grigio siderale ricondizionato" 
 },{
+    "quantita":1,
     "id": 30,
     "img":"",
     "categoria":"Telefonia",
@@ -298,7 +304,7 @@ export const ARTICOLI: Articoli[] = [
     "prezzo" : 1199,
     "marca" : "sony",
     "descrizione" : "Iphone XS MAX 256Gb grigio siderale"
-},{
+},{ "quantita":1,
     "id": 31,
     "img":"",
     "categoria":"Telefonia",

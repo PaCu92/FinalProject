@@ -22,6 +22,7 @@ p.card-text {height: 85px;
   .card-custom-avatar img {border-radius: 50%;
     box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
     position: absolute;
+
     top: 129px;
     left: 17px;
     width: 70px;
@@ -29,3 +30,9 @@ p.card-text {height: 85px;
 
     .immagine img {width: 150px;height: 150px;
     border-top:25px;}
+
+ 
+
+    .contenit{   min-height: 250px;
+      box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);}
+
