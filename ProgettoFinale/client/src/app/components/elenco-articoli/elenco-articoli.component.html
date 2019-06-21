@@ -1,6 +1,14 @@
 <div class="wrap">
-  <div class="inline">
-      <div class="container">
+<div class="inline" >
+    <div class="contenitore_destro">
+
+
+        <app-carello [cart]="carrello"></app-carello>
+  
+  </div>
+<div class="contenitore_sinistro">
+   <!--<div class="inline" >-->
+    
           <div 
             *ngFor= "let articolo  of mock"> 
 
@@ -23,7 +31,7 @@
                     <h3 class="card-text">{{articolo.categoria}}</h3>
                     <h3 class="card-text">{{articolo.marca}}</h3>
                     <p class="card-text">{{articolo.descrizione}}</p>
-                    <h3 class="card-title">{{articolo.prezzo}}€</h3>
+                    <h3 class="card-title">{{articolo.prezzo}} €</h3>
                    
                
                     
@@ -38,15 +46,15 @@
             
            
           </div>
-        </div>
+
+          
+   <!--   </div>-->
 
 
 
-
-
-  </div>
 
 
 
 </div>
-<app-carello [cart]="carrello"></app-carello>
+</div>
+</div>

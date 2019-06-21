@@ -1,37 +1,20 @@
 
-        <div class="container">
-           <div 
+     
+           <div class="carrellino"
               *ngFor= "let cart  of cart"> 
   
-              <div class="col-md-6 col-md-4 pb-3" style="margin: 0 0 20px 0">
+              <div class="col-md-12 " style="margin: 0 0 20px 0"> 
               
                 <div class="card card-custom bg-white border-white border-0">
-                  <div class="card-body" style="overflow-y: auto">
-                      <h3 class="card-title">{{cart.nome}}€</h3> 
-                      <h3 class="card-title">{{cart.descrizione}}€</h3>
-                      <h3 class="card-title">{{cart.prezzo}}€</h3>
-                      <h3 class="card-title">{{cart.quantita}}€</h3>
-                    </div>
-                   <div class="card-footer" style="background: inherit; border-color: inherit;">
-                          <a class="btn btn-primary input-xl"  >Togli dal Carello</a>
-  
+                  <div class="card-body" style="overflow-y: auto; font-size: 10px">
+                      <h5 class="card-title">Articolo: {{cart.nomeArticolo}}</h5> 
+                      <h5 class="card-title">Qta: {{  cart.quantita}} Pz: {{   cart.prezzo}}€</h5>
+                      <a class="btn btn-primary input-sm" (click)="del(cart)" >Elimina</a>
+                      <button type="button" (click)="deleteTier(cart.id)"> delete </button>
                   </div>
 
                 </div>
               </div>
                     
-            </div>
-  
-    <p>ciaooooo</p>
-<div *ngFor = "let cart of cart">
- 
- 
-  {{cart.id}}
-  {{cart.nome}}
-  {{cart.quantita}}
-
-
-</div>
-  
-  </div>
-  
+            </div>   
+     

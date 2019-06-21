@@ -7,9 +7,19 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class CarelloComponent implements OnInit {
 @Input()cart;
+  carrello: any;
   constructor() { }
 
   ngOnInit() { 
   }
 
+  del(art) {
+    console.log(art);
+    this.carrello.slice(art); 
+ 
+  }
+
 }
+
+
+
