@@ -1,18 +1,19 @@
 import { Articoli } from '../model/articoli';
+import { url } from 'inspector';
 
 export const ARTICOLI: Articoli[] = [
   {
     "id": 1,
     "categoria":"Salute e benessere",
     "idCategoria": 1,
-
+    "img":"https://images-na.ssl-images-amazon.com/images/I/71bBEnS5XFL._SX466_.jpg",
     "nomeArticolo": "Crema viso",
     "prezzo" : 80,
     "marca" : "Wella",
     "descrizione" : "crema naturale......",
 } ,{
     "id": 2,
-
+    "img":"",
     "categoria":"Salute e benessere",
     "idCategoria": 1,
 
@@ -23,6 +24,7 @@ export const ARTICOLI: Articoli[] = [
 
 },{
     "id": 3,
+    "img":"",
     "categoria":"Salute e benessere",
     "idCategoria": 1,
     "nomeArticolo": "Crema mani",
@@ -32,6 +34,7 @@ export const ARTICOLI: Articoli[] = [
 
 },{
     "id": 4,
+    "img":"",
     "categoria":"Salute e benessere",
     "idCategoria": 1,
     "nomeArticolo": "Crema ",
@@ -41,6 +44,7 @@ export const ARTICOLI: Articoli[] = [
 
 },{
     "id": 5,
+    "img":"",
     "categoria":"Salute e benessere",
     "idCategoria": 1,
     "nomeArticolo": "Shampoo ",
@@ -50,6 +54,7 @@ export const ARTICOLI: Articoli[] = [
 
 },{
     "id": 6,
+    "img":"",
     "categoria":"Salute e benessere",
     "idCategoria": 1,
     "nomeArticolo": "shampoo ",
@@ -59,6 +64,7 @@ export const ARTICOLI: Articoli[] = [
 
 },{
       "id": 7,
+      "img":"",
       "categoria":"Abbigliamento",
       "idCategoria": 2,
       "nomeArticolo": "Crema viso",
@@ -67,6 +73,7 @@ export const ARTICOLI: Articoli[] = [
       "descrizione" : "crema naturale......",
   } ,{
       "id": 8,
+      "img":"",
       "categoria":"Abbigliamento",
       "idCategoria": 2,
       "nomeArticolo": "Maglia",
@@ -76,6 +83,7 @@ export const ARTICOLI: Articoli[] = [
   
   },{
       "id": 9,
+      "img":"",
       "categoria":"Abbigliamento",
       "idCategoria": 2,
       "nomeArticolo": "Maglia",
@@ -85,6 +93,7 @@ export const ARTICOLI: Articoli[] = [
   
   },{
       "id": 10,
+      "img":"",
       "categoria":"Abbigliamento",
       "idCategoria": 2,
       "nomeArticolo": "Maglia",
@@ -94,6 +103,7 @@ export const ARTICOLI: Articoli[] = [
   
   },{
       "id": 11,
+      "img":"",
       "categoria":"Abbigliamento",
       "idCategoria": 2,
       "nomeArticolo": "Maglia",
@@ -103,6 +113,7 @@ export const ARTICOLI: Articoli[] = [
   
   },{
       "id": 12,
+      "img":"",
       "categoria":"Abbigliamento",
       "idCategoria": 2,
       "nomeArticolo": "Maglia",
@@ -112,6 +123,7 @@ export const ARTICOLI: Articoli[] = [
   
   },{
     "id": 13,
+    "img":"",
     "categoria":"Musica e film",
     "idCategoria": 3,
     "nomeArticolo": "Pinco Pippo",
@@ -121,6 +133,7 @@ export const ARTICOLI: Articoli[] = [
 
 },{
     "id": 14,
+    "img":"",
     "categoria":"Musica e film",
     "idCategoria": 3,
     "nomeArticolo": "Pinco Pippo",
@@ -130,6 +143,7 @@ export const ARTICOLI: Articoli[] = [
 
 },{
     "id": 15,
+    "img":"",
     "categoria":"Musica e film",
     "idCategoria": 3,
     "nomeArticolo": "Pinco Pippo",
@@ -139,6 +153,7 @@ export const ARTICOLI: Articoli[] = [
 
 },{
     "id": 16,
+    "img":"",
     "categoria":"Musica e film",
     "idCategoria": 3,
     "nomeArticolo": "Pinco Pippo",
@@ -148,6 +163,7 @@ export const ARTICOLI: Articoli[] = [
 
 },{
     "id": 17,
+    "img":"",
     "categoria":"Musica e film",
     "idCategoria": 3,
     "nomeArticolo": "Pinco Pippo",
@@ -157,6 +173,7 @@ export const ARTICOLI: Articoli[] = [
 
 },{
     "id": 18,
+    "img":"",
     "categoria":"Musica e film",
     "idCategoria": 3,
     "nomeArticolo": "Pinco Pippo",
@@ -166,6 +183,7 @@ export const ARTICOLI: Articoli[] = [
 
 },{
     "id": 19,
+    "img":"",
     "categoria":"Musica e film",
     "idCategoria": 3,
     "nomeArticolo": "Pinco Pippo",
@@ -175,6 +193,7 @@ export const ARTICOLI: Articoli[] = [
 
 },{
     "id": 20,
+    "img":"",
     "categoria":"Musica e film",
     "idCategoria": 3,
     "nomeArticolo": "Pinco Pippo",
@@ -184,6 +203,7 @@ export const ARTICOLI: Articoli[] = [
 
 },{
     "id": 21,
+    "img":"",
     "categoria":"Musica e film",
     "idCategoria": 3,
     "nomeArticolo": "Rambo",
@@ -193,6 +213,7 @@ export const ARTICOLI: Articoli[] = [
 
 },{
     "id": 22,
+    "img":"",
     "categoria":"Musica e film",
     "idCategoria": 3,
     "nomeArticolo": "Rambo",
@@ -202,6 +223,7 @@ export const ARTICOLI: Articoli[] = [
 
 },{
     "id": 23,
+    "img":"",
     "categoria":"Musica e film",
     "idCategoria": 3,
     "nomeArticolo": "Rambo",
@@ -211,6 +233,7 @@ export const ARTICOLI: Articoli[] = [
 
 },{
     "id": 24,
+    "img":"",
     "categoria":"Musica e film",
     "idCategoria": 3,
     "nomeArticolo": "Rambo 2",
@@ -220,6 +243,7 @@ export const ARTICOLI: Articoli[] = [
 
 },{
     "id": 25,
+    "img":"",
     "categoria":"Musica e film",
     "idCategoria": 3,
     "nomeArticolo": "Rambo 3",
@@ -229,6 +253,7 @@ export const ARTICOLI: Articoli[] = [
 
 },{
     "id": 26,
+    "img":"",
     "categoria":"Musica e film",
     "idCategoria": 3,
     "nomeArticolo": "Rambo 4",
@@ -238,6 +263,7 @@ export const ARTICOLI: Articoli[] = [
 
 },{
     "id": 27,
+    "img":"",
     "categoria":"Musica e film",
     "idCategoria": 3,
     "nomeArticolo": "Rambo 5",
@@ -247,6 +273,7 @@ export const ARTICOLI: Articoli[] = [
 
 },{
     "id": 28,
+    "img":"",
     "categoria":"Telefonia",
     "idCategoria": 4,
     "nomeArticolo": "Iphone 8 plus",
@@ -255,6 +282,7 @@ export const ARTICOLI: Articoli[] = [
     "descrizione" : "Iphone 8 plus 64Gb grigio siderale"
 },{
     "id": 29,
+    "img":"",
     "categoria":"Telefonia",
     "idCategoria": 4,
     "nomeArticolo": "Iphone 8 plus",
@@ -263,6 +291,7 @@ export const ARTICOLI: Articoli[] = [
     "descrizione" : "Iphone 8 plus 64Gb grigio siderale ricondizionato" 
 },{
     "id": 30,
+    "img":"",
     "categoria":"Telefonia",
     "idCategoria": 4,
     "nomeArticolo": "Iphone XS MAX",
@@ -271,6 +300,7 @@ export const ARTICOLI: Articoli[] = [
     "descrizione" : "Iphone XS MAX 256Gb grigio siderale"
 },{
     "id": 31,
+    "img":"",
     "categoria":"Telefonia",
     "idCategoria": 4,
     "nomeArticolo": "Iphone 8 plus",
